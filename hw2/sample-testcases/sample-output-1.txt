@@ -1,0 +1,41 @@
+Manager has been spawned, pid: 1286216, secret: 1501950061
+Manager has received spawn Manager A
+A has been spawned, pid: 1286224, secret: 1218384592
+Manager has spawned a new service A
+Manager has received spawn Manager B
+B has been spawned, pid: 1286225, secret: 1985535051
+Manager has spawned a new service B
+Manager has received spawn A C
+A has received spawn A C
+C has been spawned, pid: 1286226, secret: 1685144143
+A has spawned a new service C
+Manager has received spawn D E
+A has received spawn D E
+C has received spawn D E
+B has received spawn D E
+D doesn't exist
+Manager has received kill D
+A has received kill D
+C has received kill D
+B has received kill D
+D doesn't exist
+Manager has received spawn A D
+A has received spawn A D
+D has been spawned, pid: 1286229, secret: 768124899
+A has spawned a new service D
+Manager has received spawn C E
+A has received spawn C E
+C has received spawn C E
+E has been spawned, pid: 1286232, secret: 930667667
+C has spawned a new service E
+Manager has received kill A
+A has received kill A
+A and 3 child services are killed
+Manager has received spawn C E
+B has received spawn C E
+C doesn't exist
+Manager has received kill C
+B has received kill C
+C doesn't exist
+Manager has received kill Manager
+Manager and 1 child services are killed

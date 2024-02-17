@@ -1,0 +1,11 @@
+Manager has been spawned, pid: 1286249, secret: 60098046
+Manager has received spawn Manager A
+A has been spawned, pid: 1286251, secret: 525156073
+Manager has spawned a new service A
+Manager has received exchange Manager A
+A has received exchange Manager A
+Manager has acquired a new secret from A, value: 525156073
+A has acquired a new secret from Manager, value: 60098046
+Manager and A have exchanged their secrets
+Manager has received kill Manager
+Manager and 1 child services are killed

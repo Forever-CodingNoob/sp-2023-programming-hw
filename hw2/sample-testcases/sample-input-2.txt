@@ -1,0 +1,3 @@
+spawn Manager A
+exchange Manager A
+kill Manager

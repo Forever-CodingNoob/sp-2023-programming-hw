@@ -1,0 +1,11 @@
+spawn Manager A
+spawn Manager B
+spawn A C
+spawn D E
+kill D
+spawn A D
+spawn C E
+kill A
+spawn C E
+kill C
+kill Manager

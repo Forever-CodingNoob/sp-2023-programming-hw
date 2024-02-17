@@ -1,0 +1,12 @@
+spawn Manager A
+spawn Manager B
+spawn Manager C
+spawn Manager D
+spawn Manager E
+spawn Manager F
+spawn Manager G
+spawn Manager H
+kill D
+spawn Manager D
+spawn D I
+kill Manager

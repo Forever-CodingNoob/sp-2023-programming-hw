@@ -1,0 +1,52 @@
+Manager has been spawned, pid: 1286254, secret: 1760631704
+Manager has received spawn Manager A
+A has been spawned, pid: 1286265, secret: 1624660737
+Manager has spawned a new service A
+Manager has received spawn Manager B
+B has been spawned, pid: 1286266, secret: 247255927
+Manager has spawned a new service B
+Manager has received spawn A C
+A has received spawn A C
+C has been spawned, pid: 1286267, secret: 2092525086
+A has spawned a new service C
+Manager has received spawn B D
+A has received spawn B D
+C has received spawn B D
+B has received spawn B D
+D has been spawned, pid: 1286268, secret: 709985209
+B has spawned a new service D
+Manager has received spawn D E
+A has received spawn D E
+C has received spawn D E
+B has received spawn D E
+D has received spawn D E
+E has been spawned, pid: 1286269, secret: 1485520306
+D has spawned a new service E
+Manager has received spawn E F
+A has received spawn E F
+C has received spawn E F
+B has received spawn E F
+D has received spawn E F
+E has received spawn E F
+F has been spawned, pid: 1286270, secret: 116143562
+E has spawned a new service F
+Manager has received exchange A B
+A has received exchange A B
+C has received exchange A B
+B has received exchange A B
+A has acquired a new secret from B, value: 247255927
+B has acquired a new secret from A, value: 1624660737
+A and B have exchanged their secrets
+Manager has received kill D
+A has received kill D
+C has received kill D
+B has received kill D
+D has received kill D
+D and 2 child services are killed
+Manager has received kill E
+A has received kill E
+C has received kill E
+B has received kill E
+E doesn't exist
+Manager has received kill Manager
+Manager and 3 child services are killed
